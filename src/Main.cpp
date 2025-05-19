@@ -2,9 +2,9 @@
 #include "LCS.hpp"
 #include <iostream>
 
-int main(int argc, char *argv[])
+int main()
 {
-    const std::string filename = (argc > 1 ? argv[1] : "input.txt");
+    const std::string filename = "input.txt";
     try
     {
         InputReader reader(filename);
