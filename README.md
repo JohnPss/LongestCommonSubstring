@@ -1,6 +1,6 @@
 # Busca da Maior Substring Comum (Recursivo)
 
-Este repositório contém uma implementação em C++ que encontra a maior substring contígua comum entre duas strings, usando um método recursivo baseado em sufixos.
+Este repositório contém uma implementação em C++ que encontra a maior substring continua comum entre duas strings, usando um método recursivo baseado em sufixos.
 
 ---
 
