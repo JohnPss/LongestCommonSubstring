@@ -13,8 +13,7 @@ int LCSufRec(const std::string &s1,
     int curr = 0;
     if (s1[m - 1] == s2[n - 1])
     {
-        curr = 1 + LCSufRec(s1, s2, m - 1, n - 1,
-                            maxLen, endPos1, endPos2);
+        curr = 1 + LCSufRec(s1, s2, m - 1, n - 1, maxLen, endPos1, endPos2);
         if (curr > maxLen)
         {
             maxLen = curr;
